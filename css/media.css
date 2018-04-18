@@ -1,0 +1,59 @@
+/* smart phone & tablet */
+
+@media (max-width: 767px) {
+	.navbar-default .navbar-toggle {
+		border-color: transparent;
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+		background-color: #B71C1C;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #FFF;
+	}
+	.mobile-form {
+		display: inline-block;
+		margin-top: 20px;
+	}
+	.mobile-btn {
+		margin-top: 20px;
+	}
+	.services {
+		height: 1000px;
+	}
+	.mobile-serv {
+		margin-bottom: 50px;
+	}
+	.prices .box-one, .box-two, .box-three, .box-four {
+		margin-bottom: 20px;
+		padding-bottom: 30px;
+	}
+	.carousel-caption {
+		bottom: 20px;
+	}	
+	.services .back-hover{
+		margin-bottom: 60px;
+	}
+	.prices{
+		margin-top: 80px;
+	}
+}
+/* small screen */
+@media (min-width: 768px) and (max-width: 991px){
+	.services {
+		height: 1000px;
+	}
+	.carousel-caption {
+		bottom: 30px;
+	}
+	.services .back-hover{
+		margin-bottom: 60px;
+	}
+	.prices{
+		margin-top: 100px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px){
+	.carousel-caption {
+		bottom: 70px;
+	}
+}
